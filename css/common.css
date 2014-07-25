@@ -21,29 +21,61 @@ body{
 .menu{
 
 	width:100%;
-	height:130px;
-	max-width:1200px;
+	height:136px;
 	margin:5px auto;
 
+}
+.img_cont{
+	width:1200px;
+	margin:0px auto;
 }
 .menu_pic_l{
 	margin: 3px auto;
 	
 }
+.menu_tab_cont{
+	background: #7db9e8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7db9e8 1%, #00008a 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7db9e8), color-stop(99%,#00008a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7db9e8 1%,#00008a 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#00008a',GradientType=0 ); /* IE6-9 */
+	width:100%;
+	position:relative;
+
+}
 .menu_tab{
 	width:1200px;
-	margin-top:12px;
+	margin:18px auto 0px auto;
+	border-collapse:collapse;
 }
 .menu_tab td{
 	width:240px;
-	padding: 10px 0px;
+	max-width:240px;
+	padding: 6px 5px;
+	position:relative;
 	text-align:center;
-	outline: 1px #00008A solid;
+	/*border: 1px #00008A solid;*/
+	border: 1px transparent solid;
 	font-family: Segoe UI, Verdana, Serif;
+	font-weight:bold;
+	font-size:24px;
+	color:#FFF;
 	/*font-family:derp;*/
-	transition:2s;
+	transition:0.3s;
+	background: #7db9e8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7db9e8 1%, #00008a 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7db9e8), color-stop(99%,#00008a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7db9e8 1%,#00008a 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#00008a',GradientType=0 ); /* IE6-9 */
+		
 }
 .menu_tab td:hover{
 	width:220px;
-	border-left:#B10000;
+	border-left:#FF6A00 20px solid;
 }
