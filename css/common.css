@@ -1,9 +1,15 @@
-/*@font-face {
-	font-family: derp;
-	src: url(fonts/TELE2.ttf);
-}*/
+@font-face {
+	font-family: 'telemarines';
+	src: url('../fonts/TELE2.ttf') format('truetype');
+}
+@-webkit-font-face {
+	font-family: 'telemarines';
+	src: url('../fonts/TELE2.ttf') format('truetype');
+}
 body{
 	margin:0px auto;
+	background-image: url(../images/menu_back.jpg);
+	-webkit-background-image: url(../images/menu_back.jpg);
 }
 .wrapper{
 	min-height:1000px;
@@ -14,9 +20,10 @@ body{
 	width:100%;
 	position:absolute;
 	left: 0;
-	background-color:#D9D9D9;	
+	/*background-color:#D9D9D9;*/
 	min-width:1200px;
-	
+	background-image: url(../images/menu_back.jpg);
+	-webkit-background-image: url(../images/menu_back.jpg);
 }
 .menu{
 
@@ -31,17 +38,21 @@ body{
 }
 .menu_pic_l{
 	margin: 3px auto;
+	background-color: rgba(255,255,255,0.6);
+	padding:10px;
 	
 }
 .menu_tab_cont{
-	background: #7db9e8; /* Old browsers */
-	background: -moz-linear-gradient(top,  #7db9e8 1%, #00008a 99%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7db9e8), color-stop(99%,#00008a)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* IE10+ */
-	background: linear-gradient(to bottom,  #7db9e8 1%,#00008a 99%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#00008a',GradientType=0 ); /* IE6-9 */
+	background: #4c4c4c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+	background-image: url(../images/tr_back.jpg);
+	-webkit-background-image: url(../images/tr_back.jpg);
 	width:100%;
 	position:relative;
 
@@ -57,25 +68,16 @@ body{
 	padding: 6px 5px;
 	position:relative;
 	text-align:center;
-	/*border: 1px #00008A solid;*/
 	border: 1px transparent solid;
-	font-family: Segoe UI, Verdana, Serif;
+	font-family: telemarines, Segoe UI, Verdana, Serif;
 	font-weight:bold;
 	font-size:24px;
 	color:#FFF;
-	/*font-family:derp;*/
 	transition:0.3s;
-	background: #7db9e8; /* Old browsers */
-	background: -moz-linear-gradient(top,  #7db9e8 1%, #00008a 99%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7db9e8), color-stop(99%,#00008a)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #7db9e8 1%,#00008a 99%); /* IE10+ */
-	background: linear-gradient(to bottom,  #7db9e8 1%,#00008a 99%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#00008a',GradientType=0 ); /* IE6-9 */
-		
+	background-image: url(../images/td_back.jpg);
+	-webkit-background-image: url(../images/td_back.jpg);
 }
 .menu_tab td:hover{
 	width:220px;
-	border-left:#FF6A00 20px solid;
+	border-left:#B10000 20px solid;
 }
