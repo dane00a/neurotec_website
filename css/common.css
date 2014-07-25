@@ -1,7 +1,7 @@
-@font-face{
+/*@font-face {
 	font-family: derp;
 	src: url(fonts/TELE2.ttf);
-}
+}*/
 body{
 	margin:0px auto;
 }
@@ -39,8 +39,8 @@ body{
 	padding: 10px 0px;
 	text-align:center;
 	outline: 1px #00008A solid;
-	/*font-family: telemarines, Segoe UI, Verdana, Serif;*/
-	font-family:derp;
+	font-family: Segoe UI, Verdana, Serif;
+	/*font-family:derp;*/
 	transition:2s;
 }
 .menu_tab td:hover{
