@@ -9,20 +9,18 @@
 body{
 	margin:0px auto;
 	padding:0px;
-	background-image: url(../images/background.jpg);
-	-webkit-background-image: url(../images/background.jpg);
+
 }
 .wrapper{
 	min-height:1000px;
 	width:100%;
-	position:absolute;
-	left:0;
-	top:0;
+	position:relative;
+	bottom:5px;
 
 }
 .menu_cont{
 	width:100%;
-	position:absolute;
+	position:relative;
 	left: 0;
 	/*background-color:#D9D9D9;*/
 	min-width:1200px;
@@ -69,11 +67,11 @@ body{
 .menu_tab td{
 	width:240px;
 	max-width:240px;
-	padding: 6px 5px;
+	padding: 8px 5px;
 	position:relative;
 	text-align:center;
 	border: 1px transparent solid;
-	font-family: telemarines, Segoe UI, Verdana, Serif;
+	font-family: "Courier New", Couriet, telemarines, Segoe UI, Verdana, Serif;
 	font-weight:bold;
 	font-size:24px;
 	color:#FFF;
@@ -85,11 +83,33 @@ body{
 	width:220px;
 	border-left:#B10000 20px solid;
 }
-.body_div{
+.tbody_div{
 	background-color: rgba(255,255,255,0.6);
 	width:70%;
-	min-height:400px;
+	max-width:1100px;
+	margin:50px auto;
+}
+.body_div_cont{
+	width:100%;
+	min-height:100%;
 	margin:0px auto;
-	position:relative;
-	top:200px;
+	min-width:1200px;
+	background-image: url(../images/DSC_2692.jpg);
+	-webkit-background-image: url(../images/DSC_2692.jpg);
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+p{
+	font-family:"Courier New", Courier, monospace;
+}
+a:any-link{
+	text-decoration:none;
+	font-weight:bold;
+	color:#000;
+}
+a:-webkit-any-link{
+	text-decoration:none;
+	font-weight:bold;
+	color:#000;	
 }
