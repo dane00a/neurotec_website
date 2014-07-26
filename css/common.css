@@ -8,12 +8,16 @@
 }
 body{
 	margin:0px auto;
-	background-image: url(../images/menu_back.jpg);
-	-webkit-background-image: url(../images/menu_back.jpg);
+	padding:0px;
+	background-image: url(../images/background.jpg);
+	-webkit-background-image: url(../images/background.jpg);
 }
 .wrapper{
 	min-height:1000px;
 	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
 
 }
 .menu_cont{
@@ -80,4 +84,12 @@ body{
 .menu_tab td:hover{
 	width:220px;
 	border-left:#B10000 20px solid;
+}
+.body_div{
+	background-color: rgba(255,255,255,0.6);
+	width:70%;
+	min-height:400px;
+	margin:0px auto;
+	position:relative;
+	top:200px;
 }
