@@ -1,0 +1,10 @@
+.nuke1{
+	width:80%;
+	height:auto;
+	margin:40px auto 20px auto;
+	display:block;
+	transition:0.5s;
+}
+.nuke1:hover{
+	transform: scale(1.05);
+}
