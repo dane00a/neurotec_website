@@ -1,0 +1,13 @@
+ul{
+	width:65%;
+	margin:10px auto;	
+	list-style-type:square;
+}
+li{
+	font-size: 18px;
+	font-family:"Courier New", Courier, monospace;
+	margin: 5px auto;
+}
+.desc{
+	text-align:center !important;
+}

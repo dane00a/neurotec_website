@@ -14,7 +14,7 @@ body{
 
 }
 .wrapper{
-	min-height:1000px;
+	max-height:10px;
 	height:100%;
 	width:100%;
 	position:relative;
@@ -42,7 +42,7 @@ body{
 	margin:0px auto;
 }
 .menu_pic_l{
-	margin: 3px auto;
+	margin: 10px auto 10px auto;
 	background-color: rgba(255,255,255,0.6);
 	padding:10px;
 	
@@ -95,11 +95,11 @@ body{
 }
 .body_div_cont{
 	width:100%;
-	min-height:100%;
+	min-height:105%;
 	margin:0px auto;
 	min-width:1200px;
-	background-image: url(../images/DSC_2692.jpg);
-	-webkit-background-image: url(../images/DSC_2692.jpg);
+	background-image: url(../images/menu_back.jpg);
+	-webkit-background-image: url(../images/menu_back.jpg);
 	overflow:hidden;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -117,4 +117,27 @@ a:-webkit-any-link{
 	text-decoration:none;
 	font-weight:bold;
 	color:#000;	
+}
+.b_header{
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+	font-size:36px;
+	position:relative;
+	top:15px;	
+
+}
+.b_headerdesc{
+	font-size: 24px;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+
+}
+.desc{
+	width:70%;
+	margin:20px auto;
+	text-align:justify;
+	text-justify:distribute;
+	text-indent:50px;
+	font-size:20px;
+	line-height:1.3em;
 }
