@@ -1,0 +1,45 @@
+.menu_tab{
+	font-family: Segoe UI, Verdana, serif;
+	font-size: 32px;
+	background-color: #D9D9D9;
+	margin-top:120px;
+
+}
+.menu_tab_cont{
+	margin:auto 10%;
+	max-width:200px;
+}
+.menu_tab td{
+	border-bottom: #B10000 1px solid;
+	padding: 3px 20px;
+	text-align:center;
+	transition:0.5s;
+}
+.menu_tab td:hover{
+	transform:scale(1.1);
+
+}
+wrapper{
+	height:100%;
+	overflow:hidden;
+	
+}
+body{
+	background-color: #D9D9D9;
+	margin:0px;
+	overflow:hidden;
+}
+.footer{
+	background-color:#000;
+	height:200px;
+	width:100%;
+	position:absolute;
+	left:0;
+	bottom:-150px;
+	transition:.75s;
+	overflow:hidden;
+}
+.footer:hover{
+	box-shadow: 0px 1px 2px 2px #b10000;
+	bottom:0px;
+}
