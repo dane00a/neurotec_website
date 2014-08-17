@@ -3,4 +3,10 @@
 	height:auto;
 	margin:10px auto;
 	display:block;
+	transition:0.4s;
+}
+.nuke1:hover{
+	box-shadow: 1px 1px 1px 1px #888;
+	-webkit-box-shadow: 1px 1px 1px 1px #888;
+	transform:scale(1.03);
 }
